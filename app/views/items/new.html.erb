@@ -10,7 +10,7 @@
 	<%= f.text_field(:description)%>
 	<br/>
 	<%= f.label(:category_id) %>
-	<%= f.select(:category_id, options_for_select(['Vehicle', 'Housing', 'Jobs', 'General']))%>
-	<!-- ("category", "category_id", Person.all.collect {|p| [ p.name, p.id ] }, { include_blank: true }) -->
+	<%= f.select(:category_id, Category.all.collect {|c| [ c.name, c.id ] })%>
+	<br/>
 	<%= f.submit("Submit")%>
 <%end%>
