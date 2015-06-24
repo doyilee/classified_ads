@@ -23,7 +23,13 @@ RSpec.describe CategoriesController, type: :controller do
     it "returns http success" do
       post :create, category: {name: 'george'}
       expect(response).to have_http_status(:redirect)
-      expect(category.reload.name).to eq('george')
+      expect(Category.all.first.name).to eq('george')
+    end
+
+    it "should not create" do
+      post :create, category: {name: nil}
+      expect(response).to have_http_status(:success)
+      expect(flash[:error]).to be_present
     end
   end
 
@@ -39,7 +45,12 @@ RSpec.describe CategoriesController, type: :controller do
       name = 'vehicle'
       put :update, id: category.id, category: {name: name}
       expect(response).to have_http_status(:redirect)
-      expext(category.reload.name).to eq(name)
+      expect(category.reload.name).to eq(name)
+    end
+    it "should not update" do
+      put :update, id: category.id, category: {name: nil}
+      expect(response).to have_http_status(:success)
+      expect(flash[:error]).to be_present
     end
   end
 
@@ -54,6 +65,10 @@ RSpec.describe CategoriesController, type: :controller do
     it "returns deletes the item and redirects" do
       delete :destroy, id: category.id
       expect(response).to have_http_status(:redirect)
+    end
+    it "returns delete failed " do
+      delete :destroy, id: category.id
+      expect('Category not created. Please try again.').to be_present
     end
   end
 

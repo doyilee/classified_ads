@@ -11,12 +11,12 @@ before_action :find_category, only:[:edit, :show, :update, :destroy]
   end
 
 	def create
-		if @category = Category.create(category_params)
+		if @category = Category.create(category_params).save
 			flash[:notice] = 'Category created successfully'
 			redirect_to(categories_path)
 		else
 			flash[:error] = 'Category not created. Please try again.'
-			render('new')
+			render :new
 		end
 	end
 
@@ -26,10 +26,11 @@ before_action :find_category, only:[:edit, :show, :update, :destroy]
 	def update
 		if @category.update(category_params)
 			flash[:notice] = 'Category successfully updated'
+      redirect_to(categories_path)
 		else
 			flash[:error] = 'Category not updated. Please try again.'
+      render :edit
 		end
-    redirect_to(categories_path)
 	end
 
   def show
@@ -38,8 +39,6 @@ before_action :find_category, only:[:edit, :show, :update, :destroy]
 	def destroy
 		if @category.destroy
 		  flash[:notice] = 'Category successfully destroyed'
-		else
-			flash[:error] = 'Category not destroyed. Please try again'
 		end
     redirect_to(categories_path)
 	end
