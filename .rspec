@@ -1,4 +1,8 @@
 --color
 --require spec_helper
 --format documentation
+<<<<<<< HEAD
 --format progress
+=======
+--format progress
+>>>>>>> 505ab89235e61b8622811ffb6022df859b83f19f
