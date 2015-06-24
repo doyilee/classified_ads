@@ -1,8 +1,11 @@
 class CategoriesController < ApplicationController
+
   def index
+		@categories = Categories.all
   end
 
   def new
+		@category = Categories.new
   end
 
   def edit
@@ -10,4 +13,5 @@ class CategoriesController < ApplicationController
 
   def show
   end
+
 end
