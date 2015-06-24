@@ -24,7 +24,7 @@ class ItemsController < ApplicationController
   end
 
 	def update
-		if @item.update 
+		if @item.update(item_params)
 			flash[:notice] = "Successfully updated product." 
 			redirect_to items_path
 		else

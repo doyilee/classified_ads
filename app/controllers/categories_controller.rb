@@ -1,19 +1,19 @@
 class CategoriesController < ApplicationController
 
-before_action :find_category, only:[:edit, :show, :update; :create]
+before_action :find_category, only:[:edit, :show, :update, :destroy]
 
   def index
-		@categories = Categories.all
+		@categories = Category.all
   end
 
   def new
-		@category = Categories.new
+		@category = Category.new
   end
 
 	def create
 		if @category = Category.create(category_params)
 			flash[:notice] = 'Category created successfully'
-			redirect_to(categories_index_path)
+			redirect_to(categories_path)
 		else
 			flash[:error] = 'Category not created. Please try again.'
 			render('new')
@@ -29,7 +29,7 @@ before_action :find_category, only:[:edit, :show, :update; :create]
 		else
 			flash[:error] = 'Category not updated. Please try again.'
 		end
-    redirect_to(categories_index_path)
+    redirect_to(categories_path)
 	end
 
   def show
@@ -41,7 +41,7 @@ before_action :find_category, only:[:edit, :show, :update; :create]
 		else
 			flash[:error] = 'Category not destroyed. Please try again'
 		end
-    redirect_to(categories_index_path)
+    redirect_to(categories_path)
 	end
 
 
