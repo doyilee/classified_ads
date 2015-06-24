@@ -15,7 +15,7 @@ before_action :find_category, only: (:edit, :show, :update; :create)
 			flash[:notice] = 'Category created successfully'
 			redirect_to(categories_index_path)
 		else
-			flash[:error] = 'Something went wrong. Please try again.'
+			flash[:error] = 'Category not created. Please try again.'
 			render('new')
 		end
 	end
@@ -24,6 +24,13 @@ before_action :find_category, only: (:edit, :show, :update; :create)
   end
 
 	def update
+		if @category.update(category_params)
+			flash[:notice] = 'Category successfully updated'
+			redirect_to(categories_index_path)
+		else
+			flash[:error] = 'Please try again'
+			render(text: 'Category not updated', status: 400)
+		end
 	end
 
   def show
@@ -34,6 +41,10 @@ private
 
 	def find_category
 		@category = Category.find(params[:id])
+	end
+
+	def category_params
+		params.require(:category).permit(:name)
 	end
 
 end
