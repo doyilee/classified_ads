@@ -12,8 +12,11 @@ class ItemsController < ApplicationController
   def create
   	@item = Item.new(item_params)
   	if @item.save
-  		redirect_to 
-
+  		redirect_to items_path
+  	else
+  		flash[:error] = "Failed to add new product." 
+  		render :new
+  	end
   end
 
   def edit
