@@ -1,4 +1,5 @@
 class ItemsController < ApplicationController
+	before_action :find_item, only: [:edit, :update, :show, :destroy]
 
   def index
   	@items = Item.all 
@@ -20,11 +21,9 @@ class ItemsController < ApplicationController
   end
 
   def edit
-  	@item = Item.find(params[:id])
   end
 
 	def update
-		@item = Item.find(params[:id])
 		if @item.update 
 			flash[:notice] = "Successfully updated product." 
 			redirect_to items_path
@@ -35,11 +34,9 @@ class ItemsController < ApplicationController
 	end
 
   def show
-  	@item = Item.find(params[:id])
   end
 
   def destroy
-  	@item = Item.find(params[:id])
   	if @item.destroy
 			flash[:notice] = "Successfully deleted product." 
 			redirect_to items_path
@@ -52,5 +49,9 @@ class ItemsController < ApplicationController
   private
   def items_params
   	params.require(:item).permit(:name, :price, :description)
+  end
+
+  def find_item
+  	@item = Item.find(params[:id])
   end
 end
