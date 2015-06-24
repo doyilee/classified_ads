@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+
+  resources :items
+  resources :categories
+  
   get 'categories/index'
 
   get 'categories/new'
