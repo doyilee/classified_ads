@@ -1,8 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe ItemsController, type: :controller do
-
-let(:item) {Item.create(name: 'puppet', price: '21.99', description: 'vintage', category_id: 1)}
+  
+  let(:item) {Item.create(name: 'puppet', price: '21.99', description: 'vintage', category_id: 1)}
 
   describe "GET #index" do
     it "returns http success" do
@@ -41,5 +41,15 @@ let(:item) {Item.create(name: 'puppet', price: '21.99', description: 'vintage', 
       expect(updated_item.name).to eq(new_item_name)
     end
   end
+
+  describe "POST #create" do
+    it 'creates a new item successfully' do
+    post :create, item: {name: 'lamp', price: '15.00', description: 'silver and glass', category_id: :Vehicle}
+    expect(response).to have_http_status(:redirect)
+    end
+  end
+
 end
+
+
 
