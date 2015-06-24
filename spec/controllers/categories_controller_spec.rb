@@ -52,8 +52,7 @@ RSpec.describe CategoriesController, type: :controller do
 
   describe "DELETE #destroy" do
     it "returns deletes the item and redirects" do
-
-      DELETE
+      delete :destroy, id: category.id
       expect(response).to have_http_status(:redirect)
     end
   end
