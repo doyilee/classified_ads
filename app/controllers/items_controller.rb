@@ -9,8 +9,12 @@ class ItemsController < ApplicationController
   	@item = Item.new
   end
 
+  def create
+  end
+
   def edit
   end
+
 
   def show
   end
