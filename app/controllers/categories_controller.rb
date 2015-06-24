@@ -1,6 +1,6 @@
 class CategoriesController < ApplicationController
 
-before_action :find_category, only: (:edit, :show, :update; :create)
+before_action :find_category, only:[:edit, :show, :update; :create]
 
   def index
 		@categories = Categories.all
