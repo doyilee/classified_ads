@@ -26,10 +26,10 @@ before_action :find_category, only: (:edit, :show, :update; :create)
 	def update
 		if @category.update(category_params)
 			flash[:notice] = 'Category successfully updated'
-			redirect_to(categories_index_path)
 		else
 			flash[:error] = 'Category not updated. Please try again.'
 		end
+    redirect_to(categories_index_path)
 	end
 
   def show
