@@ -19,4 +19,13 @@ ActiveRecord::Schema.define(version: 20150624180550) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "items", force: :cascade do |t|
+    t.string   "name",                      null: false
+    t.float    "price",       default: 0.0
+    t.text     "description"
+    t.integer  "category_id"
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
+  end
+
 end
