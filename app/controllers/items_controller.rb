@@ -41,5 +41,8 @@ class ItemsController < ApplicationController
   def destroy
   end
 
-  
+  private
+  def items_params
+  	params.require(:item).permit(:name, :price, :description)
+  end
 end
