@@ -2,6 +2,8 @@ require 'rails_helper'
 
 RSpec.describe ItemsController, type: :controller do
 
+let(:category) {Category.create(:name, 'jobs')}
+
   describe "GET #index" do
     it "returns http success" do
       get :index
