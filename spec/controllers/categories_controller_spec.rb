@@ -23,7 +23,7 @@ RSpec.describe CategoriesController, type: :controller do
     it "returns http success" do
       post :create, category: {name: 'george'}
       expect(response).to have_http_status(:redirect)
-      expect(category.reload.name.last).to eq(george)
+      expect(category.reload.name).to eq('george')
     end
   end
 
