@@ -25,9 +25,17 @@ class ItemsController < ApplicationController
 
 	def update
 		@item = Item.find(params[:id])
+		if @item.update 
+			flash[:notice] = "Successfully updated product." 
+			redirect_to items_path
+		else
+			flash[:error] = "Failed to update product." 
+			render :edit
+		end
 	end
 
   def show
+  	@item = Item.find(params[:id])
   end
 
   def destroy
