@@ -28,13 +28,21 @@ before_action :find_category, only: (:edit, :show, :update; :create)
 			flash[:notice] = 'Category successfully updated'
 			redirect_to(categories_index_path)
 		else
-			flash[:error] = 'Please try again'
-			render(text: 'Category not updated', status: 400)
+			flash[:error] = 'Category not updated. Please try again.'
 		end
 	end
 
   def show
   end
+
+	def destroy
+		if @category.destroy
+		  flash[:notice] = 'Category successfully destroyed'
+		else
+			flash[:error] = 'Category not destroyed. Please try again'
+		end
+    redirect_to(categories_index_path)
+	end
 
 
 private
