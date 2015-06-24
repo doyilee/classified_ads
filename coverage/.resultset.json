@@ -1,69 +1,14 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/spec/controllers/categories_controller_spec.rb": [
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/views/items/edit.html.erb_spec.rb": [
         1,
         null,
         1,
-        null,
-        7,
-        null,
         1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
         null
       ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/spec/rails_helper.rb": [
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -117,14 +62,14 @@
         1,
         null
       ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/config/environment.rb": [
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/config/application.rb": [
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/application.rb": [
         1,
         null,
         1,
@@ -152,12 +97,12 @@
         null,
         null
       ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/config/boot.rb": [
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/config/environments/test.rb": [
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/environments/test.rb": [
         1,
         null,
         null,
@@ -201,7 +146,7 @@
         null,
         null
       ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/config/initializers/assets.rb": [
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -214,7 +159,7 @@
         null,
         null
       ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/config/initializers/backtrace_silencers.rb": [
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -223,18 +168,18 @@
         null,
         null
       ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/config/initializers/cookies_serializer.rb": [
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/config/initializers/filter_parameter_logging.rb": [
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/config/initializers/inflections.rb": [
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -252,18 +197,18 @@
         null,
         null
       ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/config/initializers/mime_types.rb": [
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/config/initializers/session_store.rb": [
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/config/initializers/wrap_parameters.rb": [
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -279,7 +224,7 @@
         null,
         null
       ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/config/routes.rb": [
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/routes.rb": [
         1,
         null,
         1,
@@ -342,91 +287,19 @@
         null,
         null
       ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/app/helpers/application_helper.rb": [
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/app/helpers/categories_helper.rb": [
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/app/helpers/categories_helper.rb": [
         1,
         null
       ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/app/helpers/items_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/app/controllers/categories_controller.rb": [
-        1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        0,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        0,
-        null,
-        1,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        4,
-        null,
-        null,
-        1,
-        2,
-        null,
-        null,
-        null
-      ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/app/controllers/application_controller.rb": [
-        1,
-        null,
-        null,
-        1,
-        null
-      ],
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/app/models/category.rb": [
-        1,
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/app/helpers/items_helper.rb": [
         1,
         null
       ]
     },
-    "timestamp": 1435177963
+    "timestamp": 1435184530
   }
 }

@@ -2,7 +2,7 @@
 <ul>
 	<% @items.each do |item| %>
 		<li>
-			<%= link_to("#{item.name} #{item.price}", item_path(item.id)) %>
+			<%= link_to("#{item.name}, $#{item.price}, id: #{item.category_id}", item_path(item.id)) %>
 		</li>
 	<%end%>
 </ul>
