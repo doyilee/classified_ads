@@ -1,21 +1,18 @@
 <div class="container text-center">
 	<h1> List of Products & Services </h1>
-	<table class="table table-hover">
+	<table class="table table-hover bg-warning">
 		<tr>
 			<td>Name:</td>
-			<td>Price:</td>
-			<td>Category:</td>
+			<td class="col-sm-1">Price:</td>
+			<td class="col-md-1">Image:</td>
 		</tr>
 		<% @items.each do |item| %>
 		<tr>
 			<th>
 				<%= link_to("#{item.name}", item_path(item.id)) %>
 			</th>
-			<th>
+			<th class="col-sm-1">
 				 <%= link_to("$#{item.price}", item_path(item.id)) %>
-			</th>
-			<th>
-				 <%= link_to("id: #{item.category_id}", item_path(item.id)) %>
 			</th>
 		</tr>
 		<%end%>
