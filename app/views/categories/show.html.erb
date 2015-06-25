@@ -1,2 +1,13 @@
-<h1>Categories#show</h1>
-<p>Find me in app/views/categories/show.html.erb</p>
+
+
+<h1><%= @category.name %></h1>
+<ul>
+	<% @category.items.each do |item| %>
+	<li> <%= link_to("#{item.name}", item_path(item.id))%> </li>
+	<% end %>
+</ul>
+
+
+<%= link_to("Edit Category", edit_category_path(@category.id)) %>
+<%= link_to("Delete Category", category_path(@category.id), method: :delete) %>
+<%= link_to("Add more categories", new_category_path) %>
