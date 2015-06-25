@@ -3,7 +3,9 @@
 <h1><%= @item.name %></h1>
 <p> price: <%= @item.price %></p>
 <p> description: <%= @item.description %></p>
+<p><%= image_tag @item.image.url(:thumb) %></p>
 
+<%= link_to("Back", items_path(@item.id)) %>
 <%= link_to("Edit", edit_item_path(@item.id)) %>
 <%= link_to("Delete", item_path(@item.id), method: :delete) %>
-<%= link_to("Add more products", new_item_path) %>a
+<%= link_to("Add more products", new_item_path) %>
