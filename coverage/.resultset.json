@@ -1,55 +1,18 @@
 {
   "RSpec": {
     "coverage": {
-<<<<<<< HEAD
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/spec/controllers/items_controller_spec.rb": [
-=======
-      "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/views/items/edit.html.erb_spec.rb": [
->>>>>>> ab5a7ec08f1f0f87f7d39d0bd97affd309d6e09f
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/controllers/categories_controller_spec.rb": [
         1,
         null,
         1,
-<<<<<<< HEAD
-        1,
-=======
         null,
-        1,
+        8,
         null,
         1,
         1,
-        0,
-        0,
-        null,
-        null,
-        null,
         1,
         1,
-        0,
-        0,
-        null,
-        null,
-        null,
         1,
-        1,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        1,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
         null,
         null,
         null,
@@ -60,17 +23,62 @@
         null,
         null,
         null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         null,
->>>>>>> 505ab89235e61b8622811ffb6022df859b83f19f
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
         null
       ],
-<<<<<<< HEAD
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/spec/rails_helper.rb": [
-=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/rails_helper.rb": [
->>>>>>> ab5a7ec08f1f0f87f7d39d0bd97affd309d6e09f
         null,
         1,
         1,
@@ -124,22 +132,14 @@
         1,
         null
       ],
-<<<<<<< HEAD
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/environment.rb": [
-=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/environment.rb": [
->>>>>>> ab5a7ec08f1f0f87f7d39d0bd97affd309d6e09f
         null,
         1,
         null,
         null,
         1
       ],
-<<<<<<< HEAD
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/application.rb": [
-=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/application.rb": [
->>>>>>> ab5a7ec08f1f0f87f7d39d0bd97affd309d6e09f
         1,
         null,
         1,
@@ -167,20 +167,12 @@
         null,
         null
       ],
-<<<<<<< HEAD
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/boot.rb": [
-=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/boot.rb": [
->>>>>>> ab5a7ec08f1f0f87f7d39d0bd97affd309d6e09f
         1,
         null,
         1
       ],
-<<<<<<< HEAD
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/environments/test.rb": [
-=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/environments/test.rb": [
->>>>>>> ab5a7ec08f1f0f87f7d39d0bd97affd309d6e09f
         1,
         null,
         null,
@@ -224,11 +216,7 @@
         null,
         null
       ],
-<<<<<<< HEAD
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/initializers/assets.rb": [
-=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/assets.rb": [
->>>>>>> ab5a7ec08f1f0f87f7d39d0bd97affd309d6e09f
         null,
         null,
         null,
@@ -241,11 +229,7 @@
         null,
         null
       ],
-<<<<<<< HEAD
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/initializers/backtrace_silencers.rb": [
-=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/backtrace_silencers.rb": [
->>>>>>> ab5a7ec08f1f0f87f7d39d0bd97affd309d6e09f
         null,
         null,
         null,
@@ -254,30 +238,18 @@
         null,
         null
       ],
-<<<<<<< HEAD
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/initializers/cookies_serializer.rb": [
-=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/cookies_serializer.rb": [
->>>>>>> ab5a7ec08f1f0f87f7d39d0bd97affd309d6e09f
         null,
         null,
         1
       ],
-<<<<<<< HEAD
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/initializers/filter_parameter_logging.rb": [
-=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/filter_parameter_logging.rb": [
->>>>>>> ab5a7ec08f1f0f87f7d39d0bd97affd309d6e09f
         null,
         null,
         null,
         1
       ],
-<<<<<<< HEAD
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/initializers/inflections.rb": [
-=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/inflections.rb": [
->>>>>>> ab5a7ec08f1f0f87f7d39d0bd97affd309d6e09f
         null,
         null,
         null,
@@ -295,30 +267,18 @@
         null,
         null
       ],
-<<<<<<< HEAD
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/initializers/mime_types.rb": [
-=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/mime_types.rb": [
->>>>>>> ab5a7ec08f1f0f87f7d39d0bd97affd309d6e09f
         null,
         null,
         null,
         null
       ],
-<<<<<<< HEAD
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/initializers/session_store.rb": [
-=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/session_store.rb": [
->>>>>>> ab5a7ec08f1f0f87f7d39d0bd97affd309d6e09f
         null,
         null,
         1
       ],
-<<<<<<< HEAD
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/initializers/wrap_parameters.rb": [
-=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/wrap_parameters.rb": [
->>>>>>> ab5a7ec08f1f0f87f7d39d0bd97affd309d6e09f
         null,
         null,
         null,
@@ -334,11 +294,7 @@
         null,
         null
       ],
-<<<<<<< HEAD
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/routes.rb": [
-=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/routes.rb": [
->>>>>>> ab5a7ec08f1f0f87f7d39d0bd97affd309d6e09f
         1,
         null,
         1,
@@ -401,17 +357,6 @@
         null,
         null
       ],
-<<<<<<< HEAD
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/app/helpers/application_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/app/helpers/categories_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/app/helpers/items_helper.rb": [
-=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/app/helpers/application_helper.rb": [
         1,
         null
@@ -420,47 +365,30 @@
         1,
         null
       ],
-<<<<<<< HEAD
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/app/helpers/items_helper.rb": [
-=======
-      "/Users/Tyler/Desktop/devpoint_git/classified_ads/app/helpers/items_helper.rb": [
->>>>>>> ab5a7ec08f1f0f87f7d39d0bd97affd309d6e09f
         1,
         null
       ],
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/app/controllers/items_controller.rb": [
-        1,
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/app/controllers/categories_controller.rb": [
         1,
         null,
         1,
-        0,
-        null,
-        null,
         null,
         1,
-        0,
+        1,
         null,
         null,
         1,
         1,
-        1,
-        1,
-        null,
-        0,
-        0,
-        null,
         null,
         null,
         1,
-        null,
+        2,
+        1,
+        1,
         null,
         1,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
+        1,
         null,
         null,
         null,
@@ -468,47 +396,290 @@
         null,
         null,
         1,
-        0,
-        0,
-        null,
-        0,
-        null,
-        null,
+        2,
         1,
+        1,
+        null,
         1,
         1,
         null,
         null,
+        null,
         1,
-        0,
+        null,
+        null,
+        1,
+        2,
+        2,
+        null,
+        2,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        6,
+        null,
+        null,
+        1,
+        4,
+        null,
         null,
         null
       ],
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/app/controllers/application_controller.rb": [
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/app/models/item.rb": [
-        1,
->>>>>>> 505ab89235e61b8622811ffb6022df859b83f19f
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/controllers/items_controller_spec.rb": [
         1,
         null,
         1,
         null,
+        4,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/app/controllers/items_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        1,
+        1,
+        2,
+        null,
+        null,
+        1,
+        3,
+        null,
+        null
+      ],
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/helpers/categories_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/helpers/items_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/models/category_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/app/models/category.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/models/item_spec.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/app/models/item.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/views/categories/edit.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/views/categories/index.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/views/categories/new.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/views/categories/show.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/views/items/edit.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/views/items/index.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/views/items/new.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/views/items/show.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
         null
       ]
     },
-<<<<<<< HEAD
-    "timestamp": 1435187314
-=======
-<<<<<<< HEAD
-    "timestamp": 1435184530
-=======
-    "timestamp": 1435182827
->>>>>>> 505ab89235e61b8622811ffb6022df859b83f19f
->>>>>>> ab5a7ec08f1f0f87f7d39d0bd97affd309d6e09f
+    "timestamp": 1435248733
   }
 }

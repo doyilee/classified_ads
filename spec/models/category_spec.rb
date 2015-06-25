@@ -1,9 +1,17 @@
 require 'rails_helper'
+require 'active_support/core_ext/module/delegation'
 
-RSpec.describe Category, type: :model do
-  
-	describe Category do
-	  it { should have_many(:items) }
+module Shoulda
+  module Matchers
+    module ActiveRecord
+
+			RSpec.describe Category, type: :model do
+			  
+				describe Category do
+				  it { should have_many(:items) }
+				end
+
+			end
+		end
 	end
-
 end
