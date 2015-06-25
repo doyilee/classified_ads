@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150624180550) do
+ActiveRecord::Schema.define(version: 20150625172457) do
 
   create_table "categories", force: :cascade do |t|
     t.string   "name"
@@ -20,12 +20,16 @@ ActiveRecord::Schema.define(version: 20150624180550) do
   end
 
   create_table "items", force: :cascade do |t|
-    t.string   "name",                      null: false
-    t.float    "price",       default: 0.0
+    t.string   "name",                             null: false
+    t.float    "price",              default: 0.0
     t.text     "description"
     t.integer  "category_id"
-    t.datetime "created_at",                null: false
-    t.datetime "updated_at",                null: false
+    t.datetime "created_at",                       null: false
+    t.datetime "updated_at",                       null: false
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
 end
