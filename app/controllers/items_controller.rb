@@ -28,7 +28,7 @@ class ItemsController < ApplicationController
 			redirect_to items_path
 		else
 			flash[:error] = "Failed to update product." 
-			render :edit
+			render :edit  # rspec can test whether this was rendered
 		end
 	end
 
@@ -49,5 +49,8 @@ class ItemsController < ApplicationController
 
   def find_item
   	@item = Item.find(params[:id])
+    unless @item
+      render(text: "Item not found with id: #{params[:id]}", status: :not_found)
+    end
   end
 end

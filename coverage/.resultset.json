@@ -1,12 +1,20 @@
 {
   "RSpec": {
     "coverage": {
+<<<<<<< HEAD
+      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/spec/controllers/items_controller_spec.rb": [
+=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/controllers/categories_controller_spec.rb": [
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         1,
         null,
         1,
         null,
+<<<<<<< HEAD
+        2,
+=======
         8,
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         null,
         1,
         1,
@@ -57,7 +65,6 @@
         1,
         null,
         null,
-        null,
         1,
         1,
         1,
@@ -67,18 +74,30 @@
         null,
         1,
         1,
+<<<<<<< HEAD
+        0,
+        0,
+        null,
+        null,
+        null,
+=======
         1,
         1,
         null,
         1,
         1,
         1,
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         null,
         null,
         null,
         null
       ],
+<<<<<<< HEAD
+      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/spec/rails_helper.rb": [
+=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/rails_helper.rb": [
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         null,
         1,
         1,
@@ -132,14 +151,22 @@
         1,
         null
       ],
+<<<<<<< HEAD
+      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/environment.rb": [
+=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/environment.rb": [
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         null,
         1,
         null,
         null,
         1
       ],
+<<<<<<< HEAD
+      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/application.rb": [
+=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/application.rb": [
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         1,
         null,
         1,
@@ -167,12 +194,20 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/boot.rb": [
+=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/boot.rb": [
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         1,
         null,
         1
       ],
+<<<<<<< HEAD
+      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/environments/test.rb": [
+=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/environments/test.rb": [
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         1,
         null,
         null,
@@ -216,7 +251,11 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/initializers/assets.rb": [
+=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/assets.rb": [
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         null,
         null,
         null,
@@ -229,7 +268,11 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/initializers/backtrace_silencers.rb": [
+=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/backtrace_silencers.rb": [
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         null,
         null,
         null,
@@ -238,18 +281,30 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/initializers/cookies_serializer.rb": [
+=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/cookies_serializer.rb": [
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         null,
         null,
         1
       ],
+<<<<<<< HEAD
+      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/initializers/filter_parameter_logging.rb": [
+=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/filter_parameter_logging.rb": [
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         null,
         null,
         null,
         1
       ],
+<<<<<<< HEAD
+      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/initializers/inflections.rb": [
+=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/inflections.rb": [
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         null,
         null,
         null,
@@ -267,18 +322,30 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/initializers/mime_types.rb": [
+=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/mime_types.rb": [
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         null,
         null,
         null,
         null
       ],
+<<<<<<< HEAD
+      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/initializers/session_store.rb": [
+=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/session_store.rb": [
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         null,
         null,
         1
       ],
+<<<<<<< HEAD
+      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/initializers/wrap_parameters.rb": [
+=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/initializers/wrap_parameters.rb": [
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         null,
         null,
         null,
@@ -294,7 +361,11 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/config/routes.rb": [
+=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/config/routes.rb": [
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         1,
         null,
         1,
@@ -357,7 +428,11 @@
         null,
         null
       ],
+<<<<<<< HEAD
+      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/app/helpers/application_helper.rb": [
+=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/app/helpers/application_helper.rb": [
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         1,
         null
       ],
@@ -365,6 +440,9 @@
         1,
         null
       ],
+<<<<<<< HEAD
+      "/Users/tiffanyforsyth/Desktop/rails_projects/classified_ads/app/helpers/items_helper.rb": [
+=======
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/app/helpers/items_helper.rb": [
         1,
         null
@@ -432,6 +510,7 @@
         1,
         null,
         null,
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         1,
         null
       ],
@@ -457,9 +536,9 @@
         null,
         null,
         1,
-        1,
-        1,
-        1,
+        0,
+        0,
+        0,
         null,
         null,
         null,
@@ -483,6 +562,13 @@
         1,
         1,
         1,
+<<<<<<< HEAD
+        0,
+        0,
+        null,
+        1,
+        1,
+=======
         1,
         null,
         null,
@@ -525,6 +611,7 @@
         null,
         0,
         0,
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         null,
         null,
         null,
@@ -541,6 +628,8 @@
         1,
         1,
         2,
+<<<<<<< HEAD
+=======
         null,
         null,
         1,
@@ -559,10 +648,15 @@
         null,
         null,
         null,
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         null,
         null,
         1,
         1,
+<<<<<<< HEAD
+        1,
+        0,
+=======
         null
       ],
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/helpers/items_helper_spec.rb": [
@@ -602,6 +696,8 @@
         null,
         null,
         null,
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
+        null,
         null,
         null
       ],
@@ -632,13 +728,21 @@
       ],
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/app/models/item.rb": [
         1,
+<<<<<<< HEAD
+=======
         1,
         null
       ],
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/views/categories/edit.html.erb_spec.rb": [
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
         1,
-        null,
         1,
+<<<<<<< HEAD
+        null
+      ]
+    },
+    "timestamp": 1435250046
+=======
         1,
         null
       ],
@@ -693,5 +797,6 @@
       ]
     },
     "timestamp": 1435248896
+>>>>>>> ef484f5882d85ec67c4abc8ee731e97e95da76c4
   }
 }
