@@ -47,6 +47,7 @@ RSpec.describe CategoriesController, type: :controller do
       expect(response).to have_http_status(:redirect)
       expect(category.reload.name).to eq(name)
     end
+
     it "should not update" do
       put :update, id: category.id, category: {name: nil}
       expect(response).to have_http_status(:success)

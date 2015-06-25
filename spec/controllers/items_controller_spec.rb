@@ -40,6 +40,12 @@ RSpec.describe ItemsController, type: :controller do
       expect(response).to have_http_status(:redirect)
       expect(updated_item.name).to eq(new_item_name)
     end
+
+    it 'does not update' do
+      put :update, id: item.id, item:{name: nil}
+      expect(flash[:error]).to be_present
+      expect(response).to render_template(:edit)
+    end
   end
 
   describe "POST #create" do
