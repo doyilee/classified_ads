@@ -4,6 +4,10 @@ before_action :find_category, only:[:edit, :show, :update, :destroy]
 
   def index
 		@categories = Category.all
+		@vehicle = Category.find_by(id:1)
+		@housing = Category.find_by(id:2)
+		@jobs = Category.find_by(id:3)
+		@general = Category.find_by(id:4)
   end
 
   def new
