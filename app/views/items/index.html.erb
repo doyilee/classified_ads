@@ -1,8 +1,23 @@
-<h1> List of Products & Services </h1>
-<ul>
-	<% @items.each do |item| %>
-		<li>
-			<%= link_to("#{item.name}, $#{item.price}, id: #{item.category_id}", item_path(item.id)) %>
-		</li>
-	<%end%>
-</ul>
+<div class="container text-center">
+	<h1> List of Products & Services </h1>
+	<table class="table table-hover">
+		<tr>
+			<td>Name:</td>
+			<td>Price:</td>
+			<td>Category:</td>
+		</tr>
+		<% @items.each do |item| %>
+		<tr>
+			<th>
+				<%= link_to("#{item.name}", item_path(item.id)) %>
+			</th>
+			<th>
+				 <%= link_to("$#{item.price}", item_path(item.id)) %>
+			</th>
+			<th>
+				 <%= link_to("id: #{item.category_id}", item_path(item.id)) %>
+			</th>
+		</tr>
+		<%end%>
+	</table>
+</div>
