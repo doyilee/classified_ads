@@ -11,6 +11,10 @@ module Shoulda
 				  it { should have_many(:items) }
 				end
 
+				describe Category do
+					it { should validate_presence_of(:name)}
+				end
+
 			end
 		end
 	end

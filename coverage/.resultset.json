@@ -584,11 +584,23 @@
       ],
       "/Users/doyilee/Desktop/DPL_prep/classified_ads/spec/models/category_spec.rb": [
         1,
+        1,
+        null,
+        1,
+        1,
+        1,
         null,
         1,
         null,
         1,
         2,
+        null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null,
         null,
         null,
         null
@@ -680,6 +692,6 @@
         null
       ]
     },
-    "timestamp": 1435248733
+    "timestamp": 1435248896
   }
 }
