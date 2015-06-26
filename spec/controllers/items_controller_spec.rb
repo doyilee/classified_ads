@@ -2,7 +2,8 @@ require 'rails_helper'
 
 RSpec.describe ItemsController, type: :controller do
   
-  let(:item) {Item.create(name: 'puppet', price: '21.99', description: 'vintage', category_id: 1)}
+  # let(:item) {Item.create(name: 'puppet', price: '21.99', description: 'vintage', category_id: 1)}
+  let(:item){create(:item)}
 
   describe "GET #index" do
     it "returns http success" do

@@ -2,13 +2,13 @@ require 'rails_helper'
 
 RSpec.describe CategoriesController, type: :controller do
 
-  let(:category) {Category.create(name: 'cars')}
+  # let(:category) {Category.create(name: 'cars')}
+  let(:category){create(:category)}
 
   describe "GET #index" do
     it "returns http success" do
       get :index
       expect(response).to have_http_status(:success)
-      expect(category.name).to eq('cars')
     end
   end
 
